@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/spInpx1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2%" />
+
+            <Button
+                android:id="@+id/spInpx2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3%" />
+
+            <Button
+                android:id="@+id/spInpx3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4%" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/conf_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello" />
+
+            <TextView
+                android:id="@+id/conf_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello" />
+
+            <TextView
+                android:id="@+id/text1_base"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="21sp"
+                android:text="Hello 21sp Base" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello" />
+
+            <TextView
+                android:id="@+id/text2_base"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:text="Hello 32sp Base" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello" />
+
+            <TextView
+                android:id="@+id/text3_base"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="43sp"
+                android:text="Hello 43sp Base" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
